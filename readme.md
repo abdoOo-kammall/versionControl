@@ -36,26 +36,6 @@ git push origin --delete branchName
 
 ```
 
-# Annotated tags vs Lightweight Tags
-
-## Annotated tags
-
-```
- git tag -a "versionName" -m "message"
-
- -git show "versionName"
- -- That shows the tagger information, the date the commit was tagged, and the annotation message before showing the commit information.
-```
-
-## Lightweight Tags
-
-```
- git tag "versionName"
-
- -git show "versionName"
- -- This time, if you run git show on the tag, you don’t see the extra tag information. The command just shows the commit:
-```
-
 # Rebase
 
 ## When to use Rebase ?
@@ -69,6 +49,8 @@ git push origin --delete branchName
 3.✅ If you and your teammate are working on the same branch and someone pushes before you, do:
 ( git pull --rebase )
 ```
+
+# Tags
 
 ## How to list tags?
 
