@@ -76,3 +76,5 @@ git tag -d <tag-name>
 git push origin --delete tag v1.0.0
 
 ```
+
+![My Image](image.jpg)
