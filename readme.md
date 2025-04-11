@@ -46,7 +46,7 @@ git push origin --delete branchName
 1.To keep your commit history clean.
 2.To make your branch up-to-date with the latest main without creating a merge commit.
 ( use git rebase main )
-3.✅ If you and your teammate are working on the same branch and someone pushes before you, do:
+3.If you and your teammate are working on the same branch and someone pushes before you, do:
 ( git pull --rebase )
 ```
 
