@@ -1,5 +1,21 @@
 # "version control"
 
+# How to Remove Branches Locally and Remotely
+
+## To delete a branch locally:
+
+```
+git branch -d branchName
+
+```
+
+## To delete a branch remotely:
+
+```
+git push origin --delete branchName
+
+```
+
 # Annotated tags vs Lightweight Tags
 
 ## Annotated tags
@@ -18,22 +34,6 @@
 
  -git show "versionName"
  -- This time, if you run git show on the tag, you don’t see the extra tag information. The command just shows the commit:
-```
-
-## How to Remove Branches Locally and Remotely
-
-### To delete a branch locally:
-
-```
-git branch -d branchName
-
-```
-
-### To delete a branch remotely:
-
-```
-git push origin --delete branchName
-
 ```
 
 # Rebase
